@@ -1,7 +1,11 @@
 from goblin import Goblin
 
 
+<<<<<<< HEAD
 ARENA_NAME = "MetLife stadium"
+=======
+ARENA_NAME = "The Iron Lung"
+>>>>>>> feature/second-goblin
 
 
 def main():
@@ -15,6 +19,9 @@ def main():
     print(f"{goblin.name} enters the arena with {goblin.health} health.")
     print("But no hero has answered the call... yet.")
 
+    goblin = Goblin("rat")
+    print(f"{goblin.name} enters the arena with {goblin.health} health.")
+    print("But no hero has answered the call... yet.")
 
 if __name__ == "__main__":
     main()
