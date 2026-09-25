@@ -1,5 +1,12 @@
 import random
+from emeny import Emeny
 
+
+class Goblin(Emeny):
+    """A basic enemy found in the arena."""
+
+    def __init__(self, name):
+        super().__init__(name, health=100, attack_power=15)
 
 class Goblin:
     """A completed character class students can examine as an OOP example."""
