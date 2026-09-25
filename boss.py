@@ -9,6 +9,6 @@ class Boss(Emeny):
 
     def attack(self):
         damage = super().attack()
-        bonus_damage = 5
+        bonus_damage = 6
         print(f"{self.name} unleashes a crushing blow!")
         return damage + bonus_damage
